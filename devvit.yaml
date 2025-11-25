@@ -1,0 +1,12 @@
+name: llm-sec-poster
+version: 0.0.22
+permissions:
+  reddit_api: true
+  scheduler: true
+  redis: true
+  http:
+    enable: true
+    domains:
+      - reddit.com
+      - www.reddit.com
+      - api.openai.com
