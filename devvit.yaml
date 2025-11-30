@@ -1,5 +1,5 @@
 name: llm-sec-poster
-version: 0.0.22
+version: 0.0.24
 permissions:
   reddit_api: true
   scheduler: true

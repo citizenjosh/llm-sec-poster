@@ -184,9 +184,9 @@ Devvit.addMenuItem({
   onPress: async (_event, context) => {
     await context.scheduler.runJob({
       name: 'post_security_news',
-      cron: '0 */3 * * *',
+      cron: '0 */8 * * *',
     });
-    context.ui.showToast('Security Bot Started! (Runs every 3 hours)');
+    context.ui.showToast('Security Bot Started! (Runs every 8 hours)');
   },
 });
 
